@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffdde1, #ee9ca7);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 650px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    animation: fadeIn 0.6s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+  }
+  
+  h1 {
+    text-align: center;
+    color: crimson;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  input:focus {
+    border-color: crimson;
+    outline: none;
+    box-shadow: 0 0 5px rgba(220,20,60,0.3);
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    background: crimson;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: darkred;
+  }
+  
+  .result {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .danger {
+    background: #ffe5e5;
+    color: red;
+    border: 1px solid red;
+  }
+  
+  .safe {
+    background: #e6ffe6;
+    color: green;
+    border: 1px solid green;
+  }
+  
+  ul {
+    margin-top: 10px;
+  }
+  
+  .back-btn {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .back-btn:hover {
+    background: #555;
+  }
+  .progress-bar {
+    width: 100%;
+    background: #eee;
+    border-radius: 10px;
+    margin: 10px 0;
+    height: 20px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background: crimson;
+    transition: width 1s ease-in-out;
+  }
+  
+  .warning {
+    background: #fff7e6;
+    color: #b36b00;
+    border: 1px solid #b36b00;
+  }
+    
